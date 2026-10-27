@@ -38,7 +38,7 @@ neoForge {
     }
 
     mods {
-        register("example_mod") {
+        register("packserver") {
             sourceSet(sourceSets.main.get())
             sourceSet(clientSourceSet)
         }

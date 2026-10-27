@@ -15,7 +15,7 @@ configure<net.fabricmc.loom.api.LoomGradleExtensionAPI> {
     splitEnvironmentSourceSets()
 
     mods {
-        register("example-mod") {
+        register("packserver") {
             sourceSet(sourceSets.main.get())
             sourceSet(sourceSets["client"])
         }

@@ -1,6 +1,6 @@
-name: Example Mod
+name: Packserver
 version: '${version}'
-main: com.example.examplemod.paper.ExampleModPaper
+main: io.github.fewwan.packserver.paper.PackserverPaper
 api-version: '1.21'
-description: Server-side companion plugin for the Example Mod template.
+description: Server-side companion plugin for the Packserver template.
 folia-supported: true

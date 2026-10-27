@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "example-mod",
+  "id": "packserver",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Packserver",
   "description": "A Minecraft mod.",
   "authors": [
     {
@@ -14,20 +14,20 @@
     "sources": ""
   },
   "license": "MIT",
-  "icon": "assets/example-mod/icon.png",
+  "icon": "assets/packserver/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.examplemod.fabric.ExampleModFabric"
+      "io.github.fewwan.packserver.fabric.PackserverFabric"
     ],
     "client": [
-      "com.example.examplemod.fabric.ExampleModClientFabric"
+      "io.github.fewwan.packserver.fabric.PackserverClientFabric"
     ]
   },
   "mixins": [
-    "example-mod.mixins.json",
+    "packserver.mixins.json",
     {
-      "config": "example-mod.client.mixins.json",
+      "config": "packserver.client.mixins.json",
       "environment": "client"
     }
   ],

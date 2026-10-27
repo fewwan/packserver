@@ -1,6 +1,6 @@
 # Global properties — identity shared across every loader/version variant.
-maven_group = "com.example.examplemod"
-archives_base_name = "example-mod"
+maven_group = "io.github.fewwan.packserver"
+archives_base_name = "packserver"
 loader_version = "0.18.4"
 
 # ──────────────────────────────────────────────────────────────────────────────

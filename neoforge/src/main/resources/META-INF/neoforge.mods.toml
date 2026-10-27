@@ -3,26 +3,26 @@ loaderVersion="[1,)"
 license="MIT"
 
 [[mods]]
-modId="example_mod"
+modId="packserver"
 version="${version}"
-displayName="Example Mod"
+displayName="Packserver"
 description="A Minecraft mod."
 authors="Your Name"
 
 [[mixins]]
-config="example-mod.mixins.json"
+config="packserver.mixins.json"
 
 [[mixins]]
-config="example-mod.client.mixins.json"
+config="packserver.client.mixins.json"
 
-[[dependencies."example_mod"]]
+[[dependencies."packserver"]]
 modId="neoforge"
 type="required"
 versionRange="[${neoforge_version},)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies."example_mod"]]
+[[dependencies."packserver"]]
 modId="minecraft"
 type="required"
 versionRange="${minecraft_version}"
